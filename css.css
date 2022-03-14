@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: rgba(65, 107, 59, 0.568);
+}
+
+.wraper {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 15px;
+  background: rgb(209, 107, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(209, 107, 255, 1) 0%,
+    rgba(7, 38, 11, 0.875) 87%
+  );
+}
+
+.buttons {
+  margin-left: 120px;
+  margin-top: 150px;
+  height: 70px;
+  margin-bottom: 50px;
+}
+
+.number {
+  margin-left: 190px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 45px;
+}
+
+.plus {
+  font-family: "Fredoka", sans-serif;
+  height: 50px;
+  width: 80px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.minus {
+  font-family: "Fredoka", sans-serif;
+  height: 50px;
+  width: 80px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.plus:hover {
+  height: 60px;
+  width: 90px;
+  background-color: rgba(182, 182, 182, 0.932);
+}
+
+.minus:hover {
+  height: 60px;
+  width: 90px;
+  background-color: rgba(182, 182, 182, 0.932);
+}
